@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+<h2>CSS Layout Float</h2>
+<p>Gele tying is a traditional African art of wrapping 
+  and styling a headscarf
+  or headwrap, typically worn by women. 
+  Gele is most commonly associated with the
+  Yoruba people of Nigeria but is also worn in other West African countries.
+  Gele tying is not just a fashion statement but is deeply rooted in cultural 
+  and social significance. It's often worn for special occasions, 
+  such as weddings, religious ceremonies, and cultural events.
+
+</p>
+
+<header>
+  <h2>Onigele Ayo1</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="#">Branch in</a></li>
+      <li><a href="#">Paris</a></li>
+      <li><a href="#">Tokyo</a></li>
+      <li><a href="#">Delaware</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>Gele Tying</h1>
+    <p>Here's a basic description of how gele tying is done:
+
+      Selecting the Fabric: Gele is usually made from stiff, often patterned,
+      and colorful fabric. Common choices include Aso Oke, Ankara, or other 
+      traditional textiles.</p>
+      
+     <p>Preparing the Hair: Before tying gele, the hair is typically styled to lay
+       flat on the head. Some people use a hairnet or wrap their hair to create a 
+       smooth base.</p>
+      
+      <p>Folding and Shaping: The fabric is folded and shaped to create the desired
+         design. The style can vary from simple to elaborate,depending on the occasion.
+      </p>
+      
+      <p> Wrapping the Gele: The fabric is wrapped around the head, starting from
+         the back and going towards the front. It's important to make sure it's snug but not too tight to avoid discomfort. The folds and pleats are carefully adjusted as the wrapping continues.
+      
+      Tying the Knot: Once the gele is wrapped to satisfaction, the ends are carefully tied in a knot or a bow at the front or side of the head. This knot can be small and discreet or large and decorative, depending on personal preference and the event.
+      
+      Finishing Touches: After tying the knot, the gele is further adjusted, and any loose ends are tucked in for a neat and polished look.
+      
+      The choice of gele style and fabric can vary greatly, 
+      and it often reflects personal taste and cultural significance. 
+      Some gele styles can be quite intricate and require a good deal of practice
+       to perfect. Many women attend gele-tying tutorials or seek the assistance 
+       of professionals for special occasions to ensure they achieve the desired 
+       look. Gele tying is not just a fashion statement but a form of self-expression
+       and it plays a significant role in African culture and fashion.</p>
+  </article>
+</section>
+
+<footer>
+  <p>Footer</p>
+</footer>
+
+</body>

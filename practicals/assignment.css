@@ -1,0 +1,15 @@
+h3{
+   color: rgb(250, 100, 183);
+   text-align: center; 
+}
+h1{
+    color: rgb(110, 185, 23);
+    text-align: center;
+}
+body{
+    background-color: aquamarine;
+}
+img{
+    display: block;
+    margin: 20px auto;
+}

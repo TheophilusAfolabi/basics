@@ -1,0 +1,14 @@
+.Flex-container{
+display: flex;
+background-color: dodgerblue;
+}
+
+.Flex-container> div{
+    background-color: #f1f1f1;
+    color: dodgerblue ;
+    width: 100px;
+    margin: 50px;
+    text-align: center;
+    line-height: 75pxs;
+    font-size: 50px;
+}
